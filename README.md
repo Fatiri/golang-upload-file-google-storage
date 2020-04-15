@@ -1,12 +1,15 @@
 # golang-upload-file-google-storage
-Packages
+Packages&nbsp
 `
  go get google.golang.org/api/storage/v1
  `
+ &nbsp
  `
  go get golang.org/x/oauth2
  `
+ &nbsp
  setting acces to GCS
+ &nbsp
 ```
 authconf := &jwt.Config{
 		Email:      "your email acces to GCS",
